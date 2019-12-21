@@ -4,4 +4,4 @@ The Q-me project is a network of queue managment systems that aims to help crowd
 
 # Overview
 
-![alt](https://drive.google.com/open?id=1_8Pllo4kC58MbTXr9aO9W3_30nkrGHF1)
+![alt text](readme_files/Q-me_ERD_1.png)
