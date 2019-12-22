@@ -1,0 +1,2 @@
+class QuesController < ApplicationController
+end
