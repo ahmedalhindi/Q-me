@@ -18,3 +18,9 @@ Que.find(1).services.create(name: "Service_1", description: "Description_1")
 Que.find(1).services.create(name: "Service_2", description: "Description_2")
 Que.find(1).services.create(name: "Service_3", description: "Description_3")
 Que.find(1).services.create(name: "Service_4", description: "Description_4")
+
+# Seeding services for Que 2
+Que.find(2).services.create(name: "Service_1", description: "Description_1")
+Que.find(2).services.create(name: "Service_2", description: "Description_2")
+
+
