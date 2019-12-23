@@ -1,8 +1,9 @@
 This is the index page
+<br>
 
-<%= @ques.each do |q| %>
-    q.name
-    q.e-mail
-    q.location
+<% @ques.each do |que| %>
+    <%= link_to que.name, que_path(que)%>
     <br>
 <% end %>
+
+<h4><%= link_to "add Que", new_que_path%></h4>

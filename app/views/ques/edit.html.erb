@@ -1,0 +1,27 @@
+
+<%= form_with scope: :que, url: ques_path, local: true do |form| %>
+  <p>
+    <%= form.label :"Queue name" %><br>
+    <%= form.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= form.label :"email" %><br>
+    <%= form.text_area :email %>
+  </p>
+
+  <p>
+    <%= form.label :"location" %><br>
+    <%= form.text_area :location %>
+  </p>
+
+  <p>
+    <%= form.label :"image" %><br>
+    <%= form.text_area :img %>
+  </p>
+  
+ 
+  <p>
+    <%= form.submit "Update Que" %>
+  </p>
+<% end %>
