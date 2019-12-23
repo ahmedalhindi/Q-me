@@ -1,5 +1,5 @@
 
-<%= form_with scope: :que, url: ques_path, local: true do |form| %>
+<%= form_for @que, url: {action: "update"} do |form| %>
   <p>
     <%= form.label :"Queue name" %><br>
     <%= form.text_field :name %>
