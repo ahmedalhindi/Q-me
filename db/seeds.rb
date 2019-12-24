@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+# Seeding Ques for the main model
 Que.create(name: "que_1", email: "email_1", location: "location_1", img: "img_1")
 Que.create(name: "que_2", email: "email_2", location: "location_2", img: "img_2")
 Que.create(name: "que_3", email: "email_3", location: "location_3", img: "img_3")
