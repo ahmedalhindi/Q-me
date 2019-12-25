@@ -1,22 +1,22 @@
 class ServicesController < ApplicationController
     before_action :authenticate_manager!
     def new
-        @que = current_manager.find(params[:que_id])
+        @que = current_manager.ques.find(params[:que_id])
         @service = @que.services.new
     end
 
     def create
-        @que = current_manager.find(params[:que_id])
+        @que = current_manager.ques.find(params[:que_id])
         @service = @que.services.create(service_params)
         redirect_to que_path(@que)
     end
 
     def show
-        @que = current_manager.find(params[:que_id])    
+        @que = current_manager.ques.find(params[:que_id])    
     end
 
     def edit
-        @que = current_manager.find(params[:que_id])
+        @que = current_manager.ques.find(params[:que_id])
     end
 
     def update
@@ -33,6 +33,6 @@ class ServicesController < ApplicationController
 
     private
     def service_params
-        params.require(:services).permit(:name,:description)
+        params.require(:service).permit(:name,:description)
     end
 end
