@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   #devise_for :managers
-  root to: "managers#index"
+  root to: "ques#index"
   resources :ques do
     resources :services
   end
