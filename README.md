@@ -6,7 +6,7 @@ The Q-me project is a network of queue managment systems that aims to help crowd
 
 The app is being developed in stages to reduce the complexity of development. version_1 should enable location_admin to register in the app and fill in their info. version_2 should enable admins to add in services to their location. version_3 should enable many users to obtain tickets for many services.
 
-![alt text](readme_files/Q-me_ERD_2.png)
+![alt text](readme_files/Q-me_ERD_3.png)
 
 # Wireframe
 
@@ -22,7 +22,7 @@ This project was a great way of getting used to branching habit. the goal is to 
 
 # User story
 
-1. The admin of a Que location needs to login to create a Que. The admin is the only role that is allowed to add, delete and disable services
+1. The admin of a Que location needs to login to create a Que. The admin is the only role that is allowed to add, delete and disable queus and services
 
 2. The visitor login is optional only to allow a user to save favourit Ques in their account. otherwise a guest user is able to obtain a ticket.
 
