@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :managers
+  root to: "ques#index"
+  
   resources :ques do
     resources :services
   end
