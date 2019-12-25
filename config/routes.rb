@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'ques/index'
+  get 'ques/show'
+  get 'ques/create'
+  get 'ques/edit'
+  get 'ques/update'
+  get 'ques/destroy'
   #devise_for :managers
   root to: "ques#index"
   devise_for :managers, controllers: { registrations: 'managers/registrations',
