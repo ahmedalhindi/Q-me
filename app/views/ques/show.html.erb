@@ -6,6 +6,8 @@ This is the show page
 <h1><%= @que.location%></h1>
 <h1><%= @que.img%></h1>
 
+<% @que.services%>
+
 <%= link_to "Delete Que", que_path(@que), method: :delete%>
 <%= link_to "Edit Que", edit_que_path(@que)%>
 

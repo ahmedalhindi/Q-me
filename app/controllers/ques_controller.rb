@@ -1,12 +1,13 @@
 class QuesController < ApplicationController
     before_action :authenticate_manager!
-    before_action :authenticate_user!, only: [:edit, :update, :destroy, :create, :new]
+    # before_action :authenticate_manager!, only: [:edit, :update, :destroy, :create, :new]
+    
     def index
-        @ques = Que.all    
+        @ques = current_manager.ques  
     end
 
     def show
-        @que = Que.find(params[:id])   
+        @que = current_manager.find(params[:id])   
     end
 
     def new
