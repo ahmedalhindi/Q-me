@@ -7,7 +7,7 @@ class QuesController < ApplicationController
     end
 
     def show
-        @que = current_manager.find(params[:id])   
+        @que = current_manager.ques.find(params[:id])   
     end
 
     def new

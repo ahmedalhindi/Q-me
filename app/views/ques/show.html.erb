@@ -1,12 +1,11 @@
-This is the show page
+This Queue has
+<h3><%=@que.name%>, <%=@que.email%>, <%=@que.location%>, <%=@que.img%></h3>
+
+<% @que.services.each do |service|%>
+    <%= service.name %>
+    <br>
+<% end %>
 <br>
-
-<h1><%= @que.name%></h1>
-<h1><%= @que.email%></h1>
-<h1><%= @que.location%></h1>
-<h1><%= @que.img%></h1>
-
-<% @que.services%>
 
 <%= link_to "Delete Que", que_path(@que), method: :delete%>
 <%= link_to "Edit Que", edit_que_path(@que)%>
