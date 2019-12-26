@@ -10,6 +10,8 @@ The app is being developed in stages to reduce the complexity of development. ve
 
 # Wireframe
 
+![alt](readme_files/wireframe.jpg)
+
 1. The app is designed such that customers can obtain their tickets for services without having to register. the index page provides multiple options for finding the store. you can find stores that are nearby if for example you were at a mall. alternatively the user can search for a prticular location. otherwise, registered users can save their often visited places.
 
 2. any of the options above should lead you to the location services provided. where a user can select the service needed.
@@ -22,8 +24,14 @@ This project was a great way of getting used to branching habit. the goal is to 
 
 # User story
 
-1. The admin of a Que location needs to login to create a Que. The admin is the only role that is allowed to add, delete and disable queus and services
+1. The admin of a Que location needs to login to create a Que. The admin is the only role that is allowed to add, delete and disable queus and services.
 
 2. The visitor login is optional only to allow a user to save favourit Ques in their account. otherwise a guest user is able to obtain a ticket.
 
-3. ...
+# Future work
+
+1. Implement statistical analysis for the manager to optimize thier process.
+
+2. Provide special offers for returning visitors.
+
+3. User can check the busy place before deciding to go.
