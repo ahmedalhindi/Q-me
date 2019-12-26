@@ -10,7 +10,7 @@ The app is being developed in stages to reduce the complexity of development. ve
 
 # Wireframe
 
-![alt text](readme_files/wireframe.jpg)
+![alt text](readme_files/wireframe.JPG)
 
 1. The app is designed such that customers can obtain their tickets for services without having to register. the index page provides multiple options for finding the store. you can find stores that are nearby if for example you were at a mall. alternatively the user can search for a prticular location. otherwise, registered users can save their often visited places.
 
