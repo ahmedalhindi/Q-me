@@ -1,14 +1,22 @@
+<br>
+<%= link_to "Delete Que", que_path(@que), method: :delete%>
+<%= link_to "Edit Que", edit_que_path(@que)%>
+<%= link_to "Add Service", new_que_service_path(@que)%>
+
 <h1><%=@que.name%></h1>
-<h3><%=@que.email%>, <%=@que.location%>, <%=@que.img%></h3>
+<br>
+<img src="<%= @que.img%>">
+<h3><%=@que.email%>, <%=@que.location%></h3>
 
 <% @que.services.each do |service|%>
-    <%= service.name %>
+    <%= service.name %>:
+    <br>
+    <%= service.description%>
+    <br>
     <br>
 <% end %>
 <br>
 
-<%= link_to "Delete Que", que_path(@que), method: :delete%>
-<%= link_to "Edit Que", edit_que_path(@que)%>
-<%= link_to "Add Service", new_que_service_path(@que)%>
+
 
 

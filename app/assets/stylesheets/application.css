@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+
+ .login{
+     margin: auto;
+     width: 200px;
+     padding: 15px;
+     background-color: lightblue;
+     transform-origin: left;
+     
+ }
+
+ .nav{
+     background-color: lightblue;
+     padding: 15px;
+
+ }
+
+ img{
+    width:200px;
+ }
+
+
